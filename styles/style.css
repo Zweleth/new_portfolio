@@ -166,6 +166,21 @@ h6 span {
 /* ================================================================================================= */
 /* About page */
 /* ================================================================================================= */
+.cv {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    height: fit-content
+}
+
+.btn-cv{
+padding: 0;
+margin: 0;
+width: fit-content
+}
+
 .page-heading {
     color: white;
     font-size: xx-large;
@@ -843,7 +858,7 @@ footer {
   .fa-facebook-f {
     animation: iconsPop 2s ease-in-out infinite;
   }
-  .fa-twitter {
+  .fa-github {
     animation: iconsPop 2s 0.3s ease-in-out infinite;
   }
   .fa-linkedin-in {
